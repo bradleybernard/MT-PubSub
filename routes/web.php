@@ -12,3 +12,4 @@
 */
 
 Route::get('check', 'SubscriptionsController@checkUser');
+Route::post('login', 'SubscriptionsController@loginUser');
