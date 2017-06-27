@@ -11,5 +11,8 @@
 |
 */
 
-Route::get('check', 'SubscriptionsController@checkUser');
 Route::post('login', 'SubscriptionsController@loginUser');
+Route::post('logout', 'SubscriptionsController@logoutUser');
+Route::post('check', 'SubscriptionsController@checkUser');
+Route::post('toggle', 'SubscriptionsController@toggleSubscription');
+
